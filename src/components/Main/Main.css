@@ -1,0 +1,74 @@
+
+/* Main content styles */
+main {
+  padding: 2rem;
+}
+
+.hero {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 4rem 2rem;
+  height: 300px; /* Adjust based on your preference */
+  background-image: url('../../assets/binary-code-blue.jpg'); /* Update with your image path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Text color */
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6); /* Optional: Adds shadow to text for better readability */
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-content button {
+  background-color: #333;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.about,
+.projects {
+  margin-top: 4rem;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-image {
+  margin-left: 2rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+}
+
+.project-card {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  text-align: center;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+}

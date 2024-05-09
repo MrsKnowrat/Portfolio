@@ -1,0 +1,10 @@
+.project-card {
+    background-color: #A9D6E5;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+  }

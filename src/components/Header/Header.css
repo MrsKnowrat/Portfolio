@@ -1,0 +1,31 @@
+/* Header styles */
+header {
+    background-color: #01497C;
+    color: white;
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    color: white
+  }
+  
+  nav ul li {
+    margin-left: 1rem;
+  }
+
+  .header {
+    color: white; /* This changes the text color to white */
+    background-color: white; /* This changes the background color to white */
+  }
