@@ -5,7 +5,9 @@ const Header = () => {
   const listObjects = [
     {href: "#", name: "Home"},
     {href: "#about", name: "About"},
+    {href: "#resume", name: "Resume"},
     {href: "#projects", name: "Projects"},
+    {href: "#training", name: "Training"},
     {href: "#contact", name: "Contact"},
   ]
   return (

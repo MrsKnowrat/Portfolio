@@ -5,55 +5,58 @@ main {
 }
 
 .hero {
-  background-color: #f4f4f4;
+  background-color: transparent; /* Set background color to transparent */
   text-align: center;
   padding: 4rem 2rem;
   height: 300px; /* Adjust based on your preference */
-  background-image: url('../../assets/binary-code-blue.jpg'); /* Update with your image path */
+  background-image: linear-gradient(rgba(244, 244, 244, 0.5), rgba(244, 244, 244, 0.5)), url('../../assets/binary-code-blue.jpg'); /* Add a transparent white overlay */
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white; /* Text color */
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.6); /* Optional: Adds shadow to text for better readability */
+  color: #333; /* Text color */
 }
 
 .hero-content h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 1rem;
 }
 
 .hero-content p {
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
 }
 
+/* Media query for screens less than 700px wide */
+@media (max-width: 700px) {
+  .hero-content h1 {
+    font-size: 2.5rem; /* Reduced font size for h1 */
+  }
+
+  .hero-content p {
+    font-size: 1.5rem; /* Reduced font size for p */
+    margin-bottom: 1rem;
+  }
+}
+
 .hero-content button {
-  background-color: #333;
   color: #fff;
   padding: 0.8rem 1.5rem;
   border: none;
   cursor: pointer;
+  margin-right: 10px;
 }
 
-.about,
+.button-primary {
+  background-color: #01497C; /* Primary button color */
+}
+
+.button-secondary {
+  background-color: #333; /* Secondary button color, if needed */
+}
 .projects {
   margin-top: 4rem;
-}
-
-.about-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.about-text {
-  flex: 1;
-}
-
-.about-image {
-  margin-left: 2rem;
 }
 
 .project-grid {
